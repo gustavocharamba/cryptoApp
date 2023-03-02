@@ -12,7 +12,6 @@ export const Container = styled.div`
 `
 
 export const Dashboard = styled.div`
-    background-color: green;
     width: 50%;
     height: 80%;
 `

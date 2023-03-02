@@ -6,9 +6,7 @@ import Menu from "../../components/menu"
 const Home: React.FC = () => {
     return(
         <Container>
-            <Menu>
-
-            </Menu>
+            <Menu/>
             <Dashboard>
                 <div className="balanceContainer">
                     {/* balance and graphic */}
