@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
-import { ContainerMenu, MenuLink, HomeIcon, WalletIcon, TransferIcon } from "./menuStyled"
+import { ContainerMenu, MenuLink, HomeIcon, WalletIcon, TransferIcon } from "./style"
 
 const Menu: React.FC = () => {
     return(

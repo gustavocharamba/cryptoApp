@@ -10,8 +10,3 @@ export const Container = styled.div`
     align-items: center;
     background-color: ${colors.darkGrey};
 `
-
-export const Dashboard = styled.div`
-    width: 50%;
-    height: 80%;
-`

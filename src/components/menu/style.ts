@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 import * as Icons from "styled-icons/boxicons-regular/index"
 
-import colors from "../global/colors";
+import colors from "../../global/colors";
 
 export const ContainerMenu = styled.div`
     width: 10%;

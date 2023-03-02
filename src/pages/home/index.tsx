@@ -1,27 +1,14 @@
 import React from "react"
 
-import { Container, Dashboard } from "./style"
+import { Container } from "./style"
 import Menu from "../../components/menu"
+import Dashboard from "../../components/dashboard/index"
 
 const Home: React.FC = () => {
     return(
         <Container>
             <Menu/>
-            <Dashboard>
-                <div className="balanceContainer">
-                    {/* balance and graphic */}
-                </div>
-
-                <div className="treadingContainer">
-                    <div>
-                        {/* top treanding */}
-                    </div>
-
-                    <div>
-                        {/* wallet top treanding */}
-                    </div>
-                </div>
-            </Dashboard>
+            <Dashboard/>
         </Container>
     )
 }
